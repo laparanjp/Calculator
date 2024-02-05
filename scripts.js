@@ -2,7 +2,6 @@
         var last = document.getElementById('last');
         var inputValue;
         var latestCharacter;
-        var decimalTracker = 0;
 
         function appendToDisplay(value) {
             if(/^[0-9]$/.test(value)){
